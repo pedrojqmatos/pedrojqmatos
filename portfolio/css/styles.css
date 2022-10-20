@@ -1,0 +1,90 @@
+:root{
+    --mellow-white: #FFF7E9;
+    --light-white: #EAEAEA;
+    --light-dark: #3C4048;
+    --deep-dark:#181818;
+    --deep-blue:#4649FF;
+}
+
+body{
+background-color: var(--deep-dark);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    padding: 1%;
+    border-width: 0px 0px 1px 0px;
+    border-color: var(--light-white);
+    margin: 0 0 0 0;
+}
+
+h2, h3, p, li, button {
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-family: "Clash Display", sans-serif;
+    font-size: 13vh;
+    color: var(--mellow-white);
+}
+
+h3 {
+    color:var(--mellow-white);
+}
+
+p {
+    color: var(--light-white);
+    font-size: 18px;
+}
+
+li{
+    padding:1rem;
+    text-decoration: none;
+    list-style: none;
+    color: var(--light-white);
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: var(--light-white);
+}
+
+.cta-hire{
+    padding: 1% 5% 1% 1%;
+    color: var(--light-white);
+    background-color: transparent;
+    border-style:solid;
+    border-width:0px 0px 0px 0px;
+    border-color: var(--light-white);
+    font-size: 1.5rem;
+}
+
+.cta-hire:hover{
+    padding: 1% 5% 1% 1%;
+    color: var(--light-white);
+    background-color: transparent;
+    border-style:solid;
+    border-width:0px 0px 2px 0px;
+    border-color: var(--light-white);
+    font-size: 1.5rem;
+}
+
+.content-wrapper {
+    padding: 0% 10% 0% 10%;
+    height: 75vh;
+}
+
+.about-me{
+display: flex;
+}
+
+.topic {
+    width: 60%;
+    padding: 6%;
+}
+
+.description {
+    width: 40%;
+    padding: 6%;
+}
